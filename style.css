@@ -19,7 +19,7 @@ body
     width: 100vw;
     height: 100vh;
     margin: 0;
-   
+   background-color: var(--deepBlue);
 }
 
 .grid-principal
@@ -29,4 +29,13 @@ body
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(12, 1fr);
+}
+.menu, .introduccion, .cursos, .contactos
+{
+    background-color: var(--glassBlue);
+}
+
+.hero, .educacion, .proyectos, .idiomas
+{
+    background-color: var(--heavyBlue);
 }
